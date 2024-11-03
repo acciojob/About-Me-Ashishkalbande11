@@ -1,1 +1,37 @@
 
+.main{
+   display: flex;
+    
+}
+.left-i{
+    flex: 1;
+    display: flex;
+}
+#details{
+    margin-top: 100px;
+}
+.About-me{
+    flex: 1;
+    margin: 50px;
+}
+#user > img {
+
+    height: 300px;
+}
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.skill-bar-fill {
+    /* width: 80%; */
+    height: 20px; /* Height of the bar */
+    background-color: #76c7c0; /* Fill color */
+    text-align: center; /* Center the text */
+    line-height: 20px; /* Align text vertically */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners for fill */
+}
